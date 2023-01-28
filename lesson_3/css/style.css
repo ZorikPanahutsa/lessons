@@ -1,0 +1,19 @@
+@import url("reset.css");
+.blackk {
+    color: black;
+}
+.redd {
+    color: red;
+}
+.text {
+    color: blue;
+}
+
+#list {
+    color: yellow;
+}
+
+h3,
+ul {
+    color: yellow;
+}
