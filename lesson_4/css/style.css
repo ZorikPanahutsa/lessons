@@ -1,0 +1,101 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Unbounded:300,500,700&display=swap);
+@font-face {
+    font-family: "Druk Cyr";
+    src: url(../fonts/DrukCyr-MediumItalic.woff) format(woff), url(../fonts/DrukCyr-MediumItalic.woff2) format(woff2);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Druk Cyr";
+    src: url(../fonts/DrukCyr-Super.woff) format(woff), url(../fonts/DrukCyr-Super.woff2) format(woff2);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+h1 {
+    color: red;
+    font-family: "Druk Cyr", serif;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+p {
+    color: rgb(194, 194, 47);
+    font-family: "Druk Cyr", serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: right;
+}
+.text {
+    color: red;
+}
+ul {
+    font-family: "Druk Cyr";
+    font-size: 31px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+li.live {
+    color: brown;
+}
+
+.list {
+    color: blue;
+}
+.list2 {
+    color: green;
+}
+p.text {
+    color: rgba(0, 0, 255, 0.5);
+    font-family: "Druk Cyr", serif;
+    font-size: 30px;
+
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    text-shadow: 2px 2px 10px #440f75;
+}
+h2 {
+    color: black;
+    font-family: "Unbounded";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.lesson.text {
+    color: chartreuse;
+    font-family: "Unbounded";
+    text-align: center;
+}
+.text2 h2 {
+    color: lime;
+}
+.text3 ~ ul {
+    color: gold;
+    font-family: "Unbounded";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+.text4 {
+    color: #440f75;
+    font-family: "Unbounded";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+img {
+    width: 500px;
+    height: 400px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
