@@ -1,0 +1,98 @@
+@import url("reset.css");
+body {
+    font-family: "Poppins", sans-serif;
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main__text-block {
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+.main__text-block p {
+    line-height: 1.78;
+    margin-bottom: 30px;
+}
+.title {
+    color: #212529;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 605px;
+}
+.article__image,
+.article__image1,
+.article__image2 {
+    max-width: 100%;
+    margin-bottom: 80px;
+}
+.article__images {
+    font-size: 0;
+}
+
+.article__image1 {
+    margin-right: 30px;
+}
+
+.main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.imagess {
+    font-size: 0;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.image__project2 {
+    margin-left: 30px;
+}
+.photo {
+    width: 100%;
+
+    font-size: 0;
+    margin-bottom: 100px;
+    box-shadow: 0 0 50px rgb(255, 0, 0);
+}
+.image__project,
+.image__project2 {
+    border-radius: 70px;
+    outline: 5px dashed blue;
+    box-shadow: 0 0 50px rgb(233, 233, 10);
+}
+.title1 {
+    margin-top: 100px;
+    color: #212529;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 605px;
+    outline: 5px solid black;
+    opacity: 0.5;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 850px;
+    margin-bottom: 60px;
+    background-color: black;
+    color: azure;
+    border: 5px solid red;
+    box-shadow: 0 5px 0 0 black;
+    border-radius: 20px;
+    position: relative;
+}
+.button:hover {
+    top: 3px;
+    box-shadow: 0 2px 0 0 black;
+}
