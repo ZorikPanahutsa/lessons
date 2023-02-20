@@ -1,0 +1,160 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:500,600,700display=swap);
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main {
+    background: #476d81 url(../img/image12.png) center/cover no-repeat;
+}
+.text {
+    font-family: "Poppins", sans-serif;
+    padding-top: 330px;
+    padding-bottom: 100px;
+}
+.text p {
+    color: #e5e5e5;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.67;
+    margin-bottom: 15px;
+}
+
+.text h2 {
+    color: #f8f9fa;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.text2 {
+    padding: 150px 0 150px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.like {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 13px;
+    color: #3056d3;
+}
+
+.text2 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.35;
+    max-width: 470px;
+    margin-bottom: 15px;
+    color: #212b36;
+}
+
+.lorem {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+    color: #637381;
+}
+
+.mainbutton {
+    color: #ffffff;
+    background: #0d3fe4;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 30px 10px 30px;
+}
+
+.main2 {
+    background: url(../img/speaker\ 1.jpg) 70% center no-repeat, url(../img/Vector\ 17.png) 90% center no-repeat,
+        url(../img/Vector\ 18.png) 90% center no-repeat, #f4f7ff;
+}
+.main2__container {
+    padding-left: 35px;
+    margin-bottom: 50px;
+}
+
+.textlist {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.list__container {
+    padding: 150px 0 150px 0;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #212b36;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.text3 ul {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #637381;
+    margin-bottom: 60px;
+}
+
+li {
+    margin-bottom: 18px;
+}
+
+.list li {
+    background: url(../img/Ellipse1.png) 0 0/ 8px no-repeat;
+    min-height: 10px;
+    padding-left: 15px;
+}
+
+.list2 li {
+    background: url(../img/checkmark-circle\ 1.png) 0 0/ 20px no-repeat;
+    min-height: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+.list3 li {
+    background: url(../img/checkmark-circle\ \ 2.png) 0 0/ 20px no-repeat;
+    min-height: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+.list4 li {
+    background: url(../img/cross-circle\ \ 3.png) 0 0/ 20px no-repeat;
+    min-height: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+.list5 li {
+    background: url(../img/arrow-right\ \ 4.png) 0 0/ 20px no-repeat;
+    min-height: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+.list6 li {
+    background: url(../img/star\ 5.png) 0 0/ 20px no-repeat;
+    min-height: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
